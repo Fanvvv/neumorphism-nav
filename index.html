@@ -16,8 +16,15 @@
   <meta content="Fan的个人引导页" name="description">
   <meta content="Fan" name="author">
   <meta content="all" name="robots">
+  <!-- 网页ico -->
+  <link rel="apple-touch-icon" sizes="180x180" href="image/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="image/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="image/favicon-16x16.png">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="theme-color" content="#ffffff">
   <!-- 引入css -->
   <link rel="stylesheet" href="./css/font-awesome.min.css">
+  <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="./css/index.css">
 </head>
 
@@ -36,10 +43,11 @@
         <div class="main">
           <img class="fan_bg" src="./image/bg.png" alt="">
           <div class="logo">
-            <img src="./image/logo.png" alt="">
+<!--            <img src="./image/logo.png" alt="">-->
+            <span class="icon-logo"></span>
           </div>
-          <div class="name">Ran</div>
-          <div class="motto">wuhu~~~</div>
+          <div class="name" onclick="changeText(this, 'Fan', '切图仔罢了')">Fan</div>
+          <div class="motto" onclick="changeText(this, '撸代码啊撸代码~ 🥤', '少喝可乐多锻炼~ 🏃‍')">撸代码啊撸代码~ 🥤</div>
           <div class="link">
             <div class="link_box">
               <ul>
@@ -62,7 +70,9 @@
       </section>
       <!-- 关于 -->
       <section class="about-section">
-
+        <div class="main">
+          关于
+        </div>
       </section>
       <!-- 站点 -->
       <section class="website-section">
@@ -73,9 +83,11 @@
 
   <!-- 底部 -->
   <footer>
-    <a href="" target="_blank">湘ICP备2021009899号</a>
-    <p>Build By Fan <i class="fa fa-heartbeat" style="color: red"></i> Copyright <i class="fa fa-copyright"></i>2022</p>
+    <a href="https://beian.miit.gov.cn/" target="_blank">湘ICP备2021009899号</a>
+    <p>Build By Fan <i class="fa fa-heartbeat fan-heart" style="color: red"></i> Copyright <i class="fa fa-copyright"></i>2022</p>
   </footer>
 </body>
 
+<!-- 引入js -->
+<script src="./js/change.js"></script>
 </html>
