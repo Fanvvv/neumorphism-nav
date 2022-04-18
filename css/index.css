@@ -1,0 +1,123 @@
+@font-face {
+    font-family: fan;
+    src: url("../fonts/wanan.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    color: var(--fan-color);
+    font-family: "fan", serif;
+    text-decoration: none;
+}
+
+:root {
+    --fan-color: #93acba;
+    --fan-bg-color: #ecf0f3;
+}
+
+body {
+    color: var(--fan-color);
+    background-color: var(--fan-bg-color);
+}
+
+.container {
+    width: 300px;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+header {
+    margin-bottom: 30px;
+    width: 300px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 44px;
+    background: var(--fan-bg-color);
+    box-shadow:  8px 8px 8px #cbced1,
+    -8px -8px 8px #ffffff;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.content {
+    width: 100%;
+    height: 400px;
+    border-radius: 10px;
+    background: var(--fan-bg-color);
+    box-shadow:  8px 8px 8px #d2d6d8,
+    -8px -8px 8px #ffffff;
+    overflow: hidden;
+}
+
+.fan_bg {
+    width: 100%;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo {
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 100px;
+    height: 100px;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.name {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 1px 1px 0 #fff;
+}
+
+.motto {
+    margin: 20px 0;
+    text-align: center;
+    text-shadow: 1px 1px 0 #fff;
+}
+
+.link_box ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.link_button {
+    width: 38px;
+    height: 38px;
+    line-height: 40px;
+    border-radius: 10px;
+    background: #ECF0F3;
+    box-shadow:  7px 7px 9px #c4c7ca,
+    -7px -7px 9px #ffffff;
+    text-align: center;
+}
+
+footer {
+    width: 100%;
+    margin: 0 auto;
+    font-size: 12px;
+    text-align: center;
+    position: fixed;
+    bottom: 15px;
+    text-shadow: 1px 1px 0 #fff;
+}
