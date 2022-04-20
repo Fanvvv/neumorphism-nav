@@ -9,6 +9,9 @@
     --fan-moon-linear: #333333;
     --fan-moon-shadow: inset 18px 18px 10px #2b2b2b,
     inset -18px -18px 10px #3b3b3b;
+    --fan-cur-point: url(../cursor/dark_pointer.cur), default;
+    --fan-cur-link: url(../cursor/dark_link.cur), pointer;
+    --fan-cur-un: url(../cursor/dark_unavailiable.cur), not-allowed;
 }
 
 .change_bg {

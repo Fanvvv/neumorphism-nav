@@ -17,9 +17,19 @@
     --fan-color: #93acba;
 }
 
-body {
+html, body {
     color: var(--fan-color);
     background-color: var(--fan-bg-color);
+    cursor: var(--fan-cur-point);
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+a {
+    cursor: var(--fan-cur-link);
 }
 
 .container {
@@ -57,6 +67,7 @@ nav {
     width: 35px;
     height: 35px;
     text-align: center;
+    cursor: var(--fan-cur-link);
 }
 
 .switch_moon {
@@ -110,6 +121,7 @@ nav {
     width: 100px;
     height: 100px;
     transition: all .5s;
+    cursor: var(--fan-cur-un);
 }
 
 .logo:hover {
@@ -137,12 +149,14 @@ nav {
     width: fit-content;
     font-size: 30px;
     text-shadow: 1px 1px 0 #fff;
+    cursor: var(--fan-cur-link);
 }
 
 .motto {
     margin: 15px auto;
     width: fit-content;
     text-shadow: 1px 1px 0 #fff;
+    cursor: var(--fan-cur-link);
 }
 
 .link_box ul {

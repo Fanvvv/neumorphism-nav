@@ -8,7 +8,10 @@
     -7px -7px 9px #ffffff;
     --fan-sun-linear: linear-gradient(145deg, #fdffff, #d4d8db);
     --fan-sun-shadow: 5px 5px 6px #a0a3a5,
-    -5px -5px 6px #ffffff
+    -5px -5px 6px #ffffff;
+    --fan-cur-point: url(../cursor/light_pointer.cur), default;
+    --fan-cur-link: url(../cursor/light_link.cur), pointer;
+    --fan-cur-un: url(../cursor/light_unavailiable.cur), not-allowed;
 }
 
 .change_bg {
