@@ -1,0 +1,16 @@
+:root {
+    --fan-bg-color: #ecf0f3;
+    --fan-header-shadow: 8px 8px 8px #cbced1,
+    -8px -8px 8px #ffffff;
+    --fan-content-shadow: 8px 8px 8px #d2d6d8,
+    -8px -8px 8px #ffffff;
+    --fan-link-shadow: 7px 7px 9px #c4c7ca,
+    -7px -7px 9px #ffffff;
+    --fan-sun-linear: linear-gradient(145deg, #fdffff, #d4d8db);
+    --fan-sun-shadow: 5px 5px 6px #a0a3a5,
+    -5px -5px 6px #ffffff
+}
+
+.change_bg {
+    background-image: url("../image/bg.png");
+}
