@@ -80,14 +80,14 @@ const typing2 = new Typewriter({ source: source[1], output: output[1] })
 
 const aboutEl = document.querySelector('.about-section')
 // 监听 about 节点的属性变化
+let flag = false
 const mutation = new MutationObserver(function (mutaitions) {
     mutaitions.forEach(item => {
+        if (!!flag) return
         if (Array.from(item.target.classList).includes('active-section')) {
+            flag = true
             typing1.start()
             typing2.start()
-        } else {
-            output[0].innerHTML = ''
-            output[1].innerHTML = ''
         }
     })
 })
