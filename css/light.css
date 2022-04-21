@@ -9,6 +9,8 @@
     --fan-sun-linear: linear-gradient(145deg, #fdffff, #d4d8db);
     --fan-sun-shadow: 5px 5px 6px #a0a3a5,
     -5px -5px 6px #ffffff;
+    --fan-about-shadow: inset 5px 5px 10px #b1b4b6,
+    inset -5px -5px 10px #ffffff;
     --fan-cur-point: url(../cursor/light_pointer.cur), default;
     --fan-cur-link: url(../cursor/light_link.cur), pointer;
     --fan-cur-un: url(../cursor/light_unavailiable.cur), not-allowed;
@@ -16,4 +18,8 @@
 
 .change_bg {
     background-image: url("../image/bg.png");
+}
+
+.change_bg_half {
+    background-image: url("../image/bg-half.png");
 }

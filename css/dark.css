@@ -9,6 +9,8 @@
     --fan-moon-linear: #333333;
     --fan-moon-shadow: inset 18px 18px 10px #2b2b2b,
     inset -18px -18px 10px #3b3b3b;
+    --fan-about-shadow: inset 5px 5px 10px #262626,
+    inset -5px -5px 10px #404040;
     --fan-cur-point: url(../cursor/dark_pointer.cur), default;
     --fan-cur-link: url(../cursor/dark_link.cur), pointer;
     --fan-cur-un: url(../cursor/dark_unavailiable.cur), not-allowed;
@@ -16,4 +18,8 @@
 
 .change_bg {
     background-image: url("../image/03.png");
+}
+
+.change_bg_half {
+    background-image: url("../image/03-half.png");
 }
