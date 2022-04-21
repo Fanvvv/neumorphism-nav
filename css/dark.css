@@ -14,6 +14,8 @@
     --fan-cur-point: url(../cursor/dark_pointer.cur), default;
     --fan-cur-link: url(../cursor/dark_link.cur), pointer;
     --fan-cur-un: url(../cursor/dark_unavailiable.cur), not-allowed;
+    --fan-web-shadow: 5px 5px 0 #141414,
+    -5px -5px 0 #525252;
 }
 
 .change_bg {

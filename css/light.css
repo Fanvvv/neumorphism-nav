@@ -14,6 +14,8 @@
     --fan-cur-point: url(../cursor/light_pointer.cur), default;
     --fan-cur-link: url(../cursor/light_link.cur), pointer;
     --fan-cur-un: url(../cursor/light_unavailiable.cur), not-allowed;
+    --fan-web-shadow: 5px 5px 0 #5e6061,
+    -5px -5px 0 #ffffff;
 }
 
 .change_bg {

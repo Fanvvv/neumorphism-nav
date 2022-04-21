@@ -111,6 +111,7 @@ nav {
 
 .content section.active-section {
     opacity: 1;
+    z-index: 2;
 }
 
 .fan_bg {
@@ -208,6 +209,60 @@ nav {
 
 .about p {
     color: #168570;
+}
+
+.web {
+    margin: 0 auto 20px;
+    width: 75%;
+    height: 20px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .15);
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 900;
+}
+
+.mt-50 {
+    margin-top: 50px;
+}
+
+.web_0 {
+    line-height: 20px;
+    text-align: center;
+    background-size: 60px 60px;
+    text-shadow: 1px 1px 0 #fff;
+    background-image: linear-gradient(135deg, #c7d5e0 0%, #c7d5e0 25%, white 25%, white 50%, #c7d5e0 50%, #c7d5e0 75%, white 75%, white 100%);
+    animation: move 1s linear infinite;
+    transition: 0.5s;
+}
+
+.web_1 {
+    color: #AE1100;
+    text-align: center;
+    text-shadow: 1px 1px 0 #fff;
+    transition: 0.5s;
+    border-radius: 10px;
+    background: var(--fan-bg-color);
+    box-shadow:  var(--fan-web-shadow);
+}
+
+.web_0:hover, .web_1:hover {
+    transform: scale(1.1);
+}
+
+.tips {
+    width: 73%;
+    border-radius: 0 5px 5px 0;
+    border-left: 4px solid #2ECC71;
+    /*border-top-right-radius: 2px;*/
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    background-color: #f8f8f8;
+    text-shadow: 1px 1px 0 #fff;
+    font-size: 15px;
 }
 
 footer {
