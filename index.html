@@ -10,7 +10,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Fan | 高级切图仔</title>
+  <title>Fan and code</title>
   <!-- 网站元信息 -->
   <meta content="Fan,个人主页,个人引导页" name="keywords">
   <meta content="Fan的个人引导页" name="description">
@@ -23,6 +23,7 @@
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="theme-color" content="#ffffff">
   <!-- 引入css -->
+  <link rel="stylesheet" href="./css/loading.css">
   <link rel="stylesheet" href="./css/font-awesome.min.css">
   <link rel="stylesheet" href="./css/style.css">
   <link rel="stylesheet" href="./css/light.css" id="theme">
@@ -123,6 +124,15 @@
     <a href="https://beian.miit.gov.cn/" target="_blank">湘ICP备2021009899号</a>
     <p>Build By Fan <i class="fa fa-heartbeat fan-heart" style="color: red"></i> Copyright <i class="fa fa-copyright"></i>2022</p>
   </footer>
+
+  <div class="fan-loding">
+    <div class="la-ball-climbing-dot la-dark la-3x">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </div>
 </body>
 
 <!-- 引入js -->
@@ -130,4 +140,15 @@
 <script src="./js/change.js"></script>
 <script src="./js/rightClick.js"></script>
 <script src="./js/typewriter.js"></script>
+<script src="./js/fan.js"></script>
+<script src="./js/Mouse.js"></script>
+<!-- 退出加载动画 -->
+<script>
+  document.onreadystatechange = function () {
+    if (document.readyState === "complete") {
+      const loading = document.querySelector('.fan-loding');
+      loading.style.display = 'none';
+    }
+  }
+</script>
 </html>
