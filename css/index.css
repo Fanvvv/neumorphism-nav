@@ -181,6 +181,7 @@ nav {
 
 .link_box ul li {
     transition: all 0.5s;
+    cursor: var(--fan-cur-link);
 }
 
 .link_box ul li:hover {
