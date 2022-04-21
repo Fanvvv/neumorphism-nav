@@ -29,6 +29,7 @@ html, body {
 }
 
 a {
+    text-shadow: 1px 1px 0 #fff;
     cursor: var(--fan-cur-link);
 }
 
@@ -59,6 +60,10 @@ nav {
     width: 260px;
     display: flex;
     justify-content: space-around;
+}
+
+.active {
+    color: #e67a2a;
 }
 
 .switch {
