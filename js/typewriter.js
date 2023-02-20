@@ -76,7 +76,7 @@ class Typewriter {
 const source = document.querySelectorAll('.text')
 const output = document.querySelectorAll('.about')
 const typing1 = new Typewriter({ source: source[0], output: output[0] })
-const typing2 = new Typewriter({ source: source[1], output: output[1] })
+// const typing2 = new Typewriter({ source: source[1], output: output[1] })
 
 const aboutEl = document.querySelector('.about-section')
 // 监听 about 节点的属性变化
@@ -87,7 +87,7 @@ const mutation = new MutationObserver(function (mutaitions) {
         if (Array.from(item.target.classList).includes('active-section')) {
             flag = true
             typing1.start()
-            typing2.start()
+            // typing2.start()
         }
     })
 })

@@ -47,7 +47,7 @@ a {
 }
 
 header {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     width: 300px;
     height: 35px;
     line-height: 35px;
@@ -158,8 +158,14 @@ nav {
     animation: changecolor 4s linear infinite;
 }
 
+.logo img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
 .name {
-    margin: 45px auto 0;
+    margin: 55px auto 0;
     width: fit-content;
     font-size: 30px;
     text-shadow: 1px 1px 0 #fff;
@@ -167,7 +173,7 @@ nav {
 }
 
 .motto {
-    margin: 15px auto;
+    margin: 5px auto 15px;
     width: fit-content;
     text-shadow: 1px 1px 0 #fff;
     cursor: var(--fan-cur-link);
@@ -199,7 +205,7 @@ nav {
 }
 
 .about {
-    margin: 40px auto 0;
+    margin: 70px auto 0;
     padding: 10px;
     width: 200px;
     font-size: 12px;
@@ -210,6 +216,10 @@ nav {
 
 .about p {
     color: #168570;
+}
+
+.output2 {
+    margin-top: 20px;
 }
 
 .web {
@@ -224,8 +234,8 @@ nav {
     font-weight: 900;
 }
 
-.mt-50 {
-    margin-top: 50px;
+.mt-70 {
+    margin-top: 70px;
 }
 
 .web_0 {

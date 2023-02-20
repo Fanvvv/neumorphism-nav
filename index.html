@@ -48,24 +48,25 @@
         <div class="main">
           <div class="fan_bg change_bg"></div>
           <div class="logo">
-            <span class="icon-logo"></span>
+            <!-- <span class="icon-logo"></span> -->
+            <img src="./image/my.png" alt="">
           </div>
           <div class="name" onclick="changeText(this, 'Fan', '💤')">Fan</div>
-          <div class="motto" onclick="changeText(this, '撸代码啊撸代码~ 🥤', '少喝可乐多锻炼~ 🏃‍')">撸代码啊撸代码~ 🥤</div>
+          <div class="motto" onclick="changeText(this, '撸代码啊撸代码~ 🥤', '少喝可乐多锻炼~ 🏃‍')">少喝可乐多锻炼~ 🏃</div>
           <div class="link">
             <div class="link_box">
               <ul>
                 <li>
-                  <div class="link_button"><a href="" target="_blank"><i class="fa fa-home fa-fw"></i></a></div>
+                  <div class="link_button"><a href="https://blogs.fanjs.cn" target="_blank"><i class="fa fa-home fa-fw"></i></a></div>
                 </li>
                 <li>
-                  <div class="link_button"><a href="" target="_blank"><i class="fa fa-telegram fa-fw"></i></a></div>
+                  <div class="link_button"><a href="https://t.me/fanvvv" target="_blank"><i class="fa fa-telegram fa-fw"></i></a></div>
                 </li>
                 <li>
-                  <div class="link_button"><a href="" target="_blank"><i class="fa fa-envelope fa-fw"></i></a></div>
+                  <div class="link_button"><a href="mailto:me@fanjs.cn" target="_blank"><i class="fa fa-envelope fa-fw"></i></a></div>
                 </li>
                 <li>
-                  <div class="link_button"><a href="" target="_blank"><i class="fa fa-qq fa-fw"></i></a></div>
+                  <div class="link_button"><a href="tencent://message/?uin=291950304&Site=&Menu=yes"" target="_blank"><i class="fa fa-qq fa-fw"></i></a></div>
                 </li>
               </ul>
             </div>
@@ -77,22 +78,29 @@
         <div class="main">
           <div class="fan_bg_half change_bg_half"></div>
           <div class="logo">
-            <span class="icon-logo"></span>
+            <!-- <span class="icon-logo"></span> -->
+            <img src="./image/my.png" alt="">
           </div>
           <div class="about output1"></div>
           <div class="text" style="display: none">
             <p>&gt;_</p>
-            <p>野生菜鸡程序猿</p>
-            <p>只会写写页面什么的 ~</p>
+            <p>姓名：范建宇</p>
+            <p>昵称：Fan</p>
+            <p>我是一名前端工程师</p>
+            <p>坐标：深圳</p>
+            <p>学历：本科</p>
+            <p>专业：软件工程</p>
+            <p>skill：Vue、Element、Axios、Nuxt.js、Vite、Webpack、Typescript、MongoDB、Koa2</p>
           </div>
-          <div class="about output2"></div>
+          <!-- <div class="about output2"></div>
           <div class="text" style="display: none">
             <p>&gt;_</p>
-            <p>生活很单调</p>
-            <p>喜欢睡觉</p>
-            <p>想出去玩，但不想动</p>
-            <p>什么都想学，但只会cv</p>
-          </div>
+            <p>我是一名前端工程师</p>
+            <p>坐标：深圳</p>
+            <p>学历：本科</p>
+            <p>专业：软件工程</p>
+            <p>skill：Vue、Element、Axios、Nuxt.js、Vite、Webpack、Typescript、MongoDB、Koa2</p>
+          </div> -->
         </div>
       </section>
       <!-- 站点 -->
@@ -100,13 +108,14 @@
         <div class="main">
           <div class="fan_bg_half change_bg_half"></div>
           <div class="logo">
-            <span class="icon-logo"></span>
+            <!-- <span class="icon-logo"></span> -->
+            <img src="./image/my.png" alt="">
           </div>
-          <a href="" target="_blank">
-            <div class="web web_1 mt-50">blog</div>
+          <a href="https://blogs.fanjs.cn" target="_blank">
+            <div class="web web_1 mt-70">blog</div>
           </a>
-          <a href="" target="_blank">
-            <div class="web web_1">music</div>
+          <a href="https://note.fanjs.cn" target="_blank">
+            <div class="web web_1">note</div>
           </a>
           <a href="#" target="_self">
             <div class="web web_0">
@@ -145,7 +154,7 @@
 <!-- 退出加载动画 -->
 <script>
   document.onreadystatechange = function () {
-    if (document.readyState === "complete") {
+    if (document.readyState === "interactive") {
       const loading = document.querySelector('.fan-loding');
       loading.style.display = 'none';
     }
